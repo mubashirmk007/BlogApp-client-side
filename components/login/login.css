@@ -1,0 +1,45 @@
+.login {
+    background-image: url("./img/background.jpg");
+    background-size: cover;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center; 
+}
+
+.loginTitle {
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(92, 45, 45);
+}
+
+.loginForm {
+    width: 300px;
+    height: 300px;
+   margin-top: 20px;
+   display: flex; 
+   flex-direction: column;
+}
+
+.loginForm>label {
+     margin: 20px 0; 
+    text-align: left;
+     
+}
+
+.loginInput {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.loginButton {
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: turquoise;
+    border: none;
+    color: rgb(78, 11, 11);
+    border-radius: 15px;
+    padding: 10px;
+}
